@@ -1,0 +1,230 @@
+*{ padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.tudo{
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: white;   
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    color: #3438d5;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tarefas{
+    width: 500px;
+    margin-top: 30px;
+    border-color: #3438d5;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.caixa-texto{
+    display: flex;
+    justify-content: center;
+}
+
+.caixaUl{
+   margin-left: 150px;
+   font-size: 30px;
+}
+
+.litarefas{
+    color: #0c2569;
+    list-style: none;
+    margin-left: -50px;
+}
+
+.lixo{
+    margin-left: 470px;
+    position: absolute;
+    margin-top: -30px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3438d5;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.editar{
+    margin-left: 400px;
+    position: absolute;
+    margin-top: -30px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3438d5;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.marcadofeito{
+    margin-left: 400px;
+    padding: 7px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #3438d5;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.naomarcado{
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #3438d5;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.todastarefas{
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #3438d5;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.marcadofeito:hover{
+    background-color: #0c2569;
+}
+.naomarcado:hover{
+    background-color: #0c2569;
+}
+.todastarefas:hover{
+    background-color: #0c2569;
+}
+.lixo:hover{
+    background-color: #0c2569;
+}
+.editar:hover{
+    background-color: #0c2569;
+}
+
+@media screen and (max-width: 2043px) {
+    .marcadofeito{
+        margin-left: 635px;
+    }
+}
+@media screen and (max-width: 1521px) {
+    .marcadofeito{
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 1281px) {
+    .marcadofeito{
+        margin-left: 200px;
+    }
+    .tudo{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 1094px) {
+    .marcadofeito{
+        margin-left: 50px;
+    }
+    .tudo{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .tudo{
+        max-width: 400px;
+        margin-left: 50px;
+    }
+    .litarefas{
+        margin-left: -150px;
+        font-size: 20px;
+    }
+    .editar{
+        font-size: 10px;
+        margin-left: 150px;
+        margin-top: -20px;
+    }
+    .lixo{
+        font-size: 10px;
+        margin-left: 200px;
+        margin-top: -20px;
+    }
+    .naomarcado{
+        position: absolute;
+        margin-left: 30px;
+    }
+    .todastarefas{
+        position: absolute;
+        margin-left: -90px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .tudo{
+        margin-top: 20px;
+        max-width: 380px;
+        margin-left: 1px;
+    }
+    .litarefas{
+        margin-left: -155px;
+        font-size: 20px;
+    }
+    .editar{
+        font-size: 10px;
+        margin-left: 150px;
+        margin-top: -20px;
+    }
+    .lixo{
+        font-size: 10px;
+        margin-left: 200px;
+        margin-top: -20px;
+    }
+    .marcadofeito{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: -30px;
+        padding: 7px;
+    }
+    .naomarcado{
+        position: absolute;
+        margin-left: 205px;
+        margin-top: -30px;
+        padding: 7px;
+    }
+    .todastarefas{
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 20px;
+        padding: 7px;
+    }
+}
